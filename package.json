@@ -1,0 +1,14 @@
+{
+  "name": "nodevue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front":"npm run dev --prefix front",
+    "api":"npm run dev --prefix api",
+    "dev": "concurrently \"npm run front\" \"npm run api\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
